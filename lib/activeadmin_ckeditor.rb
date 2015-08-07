@@ -1,2 +1,2 @@
-module ActiveadminCkeditor
-end
+require "ckeditor"
+require "activeadmin_ckeditor/version"
