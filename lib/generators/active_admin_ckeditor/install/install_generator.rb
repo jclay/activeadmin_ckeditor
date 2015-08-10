@@ -9,7 +9,7 @@ module ActiveAdminCkeditor
 
       def require_assets
         gsub_file "app/assets/javascripts/active_admin.js.coffee", '#= require active_admin/base', "#= require active_admin/base\n#= require ckeditor/init"
-        prepend_file "app/assets/stylesheets/active_admin.scss", "//= require activeadmin-ckeditor\n"
+        gsub_file "app/assets/stylesheets/active_admin.scss", '@import "active_admin/base";', "@import \"active_admin/base\";\n@import \"activeadmin-ckeditor\";"
       end
 
       def edit_config
