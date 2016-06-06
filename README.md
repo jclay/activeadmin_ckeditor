@@ -52,7 +52,7 @@ Copy the default config provided by the CKEditor gem into your local project.
 
 From the root of your rails project:
 ```
-cp $(bundle show ckeditor)/app/assets/javascripts/ckeditor/config.js ./app/assets/javascripts/config.js
+cp $(bundle show ckeditor)/app/assets/javascripts/ckeditor/config.js ./app/assets/javascripts/ckeditor/config.js
 ```
 
 Now you can customize config.js to suite your needs.
