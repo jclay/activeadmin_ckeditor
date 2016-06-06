@@ -1,5 +1,5 @@
 # ActiveAdmin CKEditor
-Easily install and use CKEditor with ActiveAdmin textareas.
+Use CKEditor with ActiveAdmin textareas.
 
 Tested with:
 * Rails 4.2
